@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>SH.Framework.Library.Cqrs.Implementation.EntityFrameworkCore</PackageId>
+        <Version>10.0.0</Version>
+        <Authors>Muharrem Kaçkın</Authors>
+        <Company>Strawhats Company</Company>
+        <PackageProjectUrl>https://github.com/muharremkackin/sh-framework-cqrs-implementation-entity-framework-core</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>asp.net;cqrs;implementation;result-pattern;clean-architecture;entity-framework-core</PackageTags>
+        <RepositoryUrl>https://github.com/muharremkackin/sh-framework-cqrs-implementation-entity-framework-core</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <DebugType>portable</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+        <Copyright>Copyright © Strawhats Company 2025</Copyright>
+        <Product>SH Framework CQRS Implementation EF Core Library</Product>
+        <TargetFramework>net10.0</TargetFramework>
+        <LangVersion>14</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
+      <PackageReference Include="SH.Framework.Library.Cqrs.Implementation" Version="3.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="./../LICENSE" Pack="true" PackagePath="" />
+        <None Include="./../README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+
+</Project>

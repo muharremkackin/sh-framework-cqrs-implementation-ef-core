@@ -1,0 +1,1 @@
+# SH.Framework.Library.Cqrs.Implementation.EntityFrameworkCore
