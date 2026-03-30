@@ -24,6 +24,8 @@
         <Product>SH Framework CQRS Implementation EF Core Library</Product>
         <TargetFrameworks>net10.0;net9.0;net8.0</TargetFrameworks>
         <LangVersion>12</LangVersion>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+        <RestoreLockedMode Condition="'$(ContinuousIntegrationBuild)' == 'true'">true</RestoreLockedMode>
     </PropertyGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
