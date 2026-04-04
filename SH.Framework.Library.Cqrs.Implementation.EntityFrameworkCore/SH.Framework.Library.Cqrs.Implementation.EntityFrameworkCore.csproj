@@ -4,7 +4,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>SH.Framework.Library.Cqrs.Implementation.EntityFrameworkCore</PackageId>
-        <Version>10.0.1</Version>
+        <Version>10.0.2</Version>
         <Authors>Muharrem Kaçkın</Authors>
         <Company>Strawhats Company</Company>
         <PackageProjectUrl>https://github.com/muharremkackin/sh-framework-cqrs-implementation-entity-framework-core</PackageProjectUrl>
@@ -44,7 +44,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="SH.Framework.Library.Cqrs.Implementation" Version="3.0.6" />
+      <PackageReference Include="SH.Framework.Library.Cqrs.Implementation" Version="3.0.7" />
     </ItemGroup>
 
 </Project>

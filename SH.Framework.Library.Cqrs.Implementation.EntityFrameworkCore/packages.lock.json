@@ -16,9 +16,9 @@
       },
       "SH.Framework.Library.Cqrs.Implementation": {
         "type": "Direct",
-        "requested": "[3.0.6, )",
-        "resolved": "3.0.6",
-        "contentHash": "Advbb9r0fM33eZdOlC323KfYh7lqu/n6TJfj7ZbshhfRb8i8GHt5VV9ccqqk4HO25G7G8y1MIg1FsRncH7L4yg==",
+        "requested": "[3.0.7, )",
+        "resolved": "3.0.7",
+        "contentHash": "xjmel6dDQeBVg1SQBwTmPyMfmaXej5RIGk5QvV8heOAWVXsn72IYv5t4Onw1vz3W3XetQn73VKFFnWwPeCNWVg==",
         "dependencies": {
           "SH.Framework.Library.Cqrs": "3.0.1"
         }
@@ -122,9 +122,9 @@
       },
       "SH.Framework.Library.Cqrs.Implementation": {
         "type": "Direct",
-        "requested": "[3.0.6, )",
-        "resolved": "3.0.6",
-        "contentHash": "Advbb9r0fM33eZdOlC323KfYh7lqu/n6TJfj7ZbshhfRb8i8GHt5VV9ccqqk4HO25G7G8y1MIg1FsRncH7L4yg==",
+        "requested": "[3.0.7, )",
+        "resolved": "3.0.7",
+        "contentHash": "xjmel6dDQeBVg1SQBwTmPyMfmaXej5RIGk5QvV8heOAWVXsn72IYv5t4Onw1vz3W3XetQn73VKFFnWwPeCNWVg==",
         "dependencies": {
           "SH.Framework.Library.Cqrs": "3.0.1"
         }
@@ -228,9 +228,9 @@
       },
       "SH.Framework.Library.Cqrs.Implementation": {
         "type": "Direct",
-        "requested": "[3.0.6, )",
-        "resolved": "3.0.6",
-        "contentHash": "Advbb9r0fM33eZdOlC323KfYh7lqu/n6TJfj7ZbshhfRb8i8GHt5VV9ccqqk4HO25G7G8y1MIg1FsRncH7L4yg==",
+        "requested": "[3.0.7, )",
+        "resolved": "3.0.7",
+        "contentHash": "xjmel6dDQeBVg1SQBwTmPyMfmaXej5RIGk5QvV8heOAWVXsn72IYv5t4Onw1vz3W3XetQn73VKFFnWwPeCNWVg==",
         "dependencies": {
           "SH.Framework.Library.Cqrs": "3.0.1"
         }
