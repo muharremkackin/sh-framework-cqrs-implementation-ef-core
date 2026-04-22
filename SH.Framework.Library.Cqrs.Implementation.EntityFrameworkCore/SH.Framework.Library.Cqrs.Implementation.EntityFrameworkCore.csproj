@@ -4,7 +4,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>SH.Framework.Library.Cqrs.Implementation.EntityFrameworkCore</PackageId>
-        <Version>10.0.2</Version>
+        <Version>10.0.3</Version>
         <Authors>Muharrem Kaçkın</Authors>
         <Company>Strawhats Company</Company>
         <PackageProjectUrl>https://github.com/muharremkackin/sh-framework-cqrs-implementation-entity-framework-core</PackageProjectUrl>
@@ -29,13 +29,13 @@
     </PropertyGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.7" />
     </ItemGroup>
     <ItemGroup Condition="'$(TargetFramework)' == 'net9.0'">
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.14" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.15" />
     </ItemGroup>
     <ItemGroup Condition="'$(TargetFramework)' == 'net8.0'">
-        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.25" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.26" />
     </ItemGroup>
 
     <ItemGroup>
@@ -44,7 +44,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="SH.Framework.Library.Cqrs.Implementation" Version="3.0.7" />
+      <PackageReference Include="SH.Framework.Library.Cqrs.Implementation" Version="3.0.8" />
     </ItemGroup>
 
 </Project>
